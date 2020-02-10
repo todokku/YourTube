@@ -9,6 +9,8 @@ Technologies used:
 * ReactJs
 * Youtube Data API(v3)
 
+Project Demo is provided here: [Demo](https://eddiegong2604.github.io/YourTube/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
