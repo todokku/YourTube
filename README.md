@@ -1,7 +1,7 @@
 ## YourTube
 A Single-page ReactJs Application that allows users to get a certain number of Youtube video cards originated from chosen Youtube channel.
 
-The underlying logic of this application is that it fetches data from Youtube API to retrieve the first matched channelId then get a random number of elements from the array which contains all items of matched Youtube Channel. All elements are displayed in cards and organized using Bootstrap Grid System.
+The underlying logic of this application is that it deploys Youtube search mechanism combined with Youtube public API to retrieve the first matched channelId. Data from the channel found is analyzed to grab a random number of elements from the array containing videos information properties including videoId, title, etc. All elements are displayed in cards and organized using Bootstrap Grid System.
 
 Technologies used:
 * HTML
