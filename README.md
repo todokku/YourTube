@@ -1,3 +1,14 @@
+## YourTube
+A Single-page ReactJs Application that allows users to get a certain number of Youtube video cards originated from chosen Youtube channel.
+
+The underlying logic of this application is that it fetches data from Youtube API to retrieve the first matched channelId then get a random number of elements from the array which contains all items of matched Youtube Channel. All elements are displayed in cards and organized using Bootstrap Grid System.
+
+Technologies used:
+* HTML
+* Bootstrap
+* ReactJs
+* Youtube Data API(v3)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
