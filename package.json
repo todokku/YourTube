@@ -2,7 +2,7 @@
   "name": "meme-app",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://eddiegong2604.github.io/yourTube/", 
+  "homepage": "https://eddiegong2604.github.io/YourTube/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
     "@fortawesome/free-solid-svg-icons": "^5.12.1",
@@ -11,6 +11,7 @@
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.4.1",
+    "gh-pages": "^2.2.0",
     "immutability-helper": "^3.0.1",
     "popper.js": "^1.16.1",
     "react": "^16.12.0",
@@ -24,7 +25,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "predeploy": "npm run build",
-    "deploy":"gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
