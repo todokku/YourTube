@@ -44,7 +44,6 @@ class App extends Component {
         let videoItemsArray = this.getRandomVideos(allVideoItemsArray);
         this.setState({ videoItemsArray });
       });
-    console.log(this.state);
   }
 
   async handleSearchString(e) {
