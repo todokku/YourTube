@@ -21,7 +21,7 @@ class App extends Component {
 
   async handleSearchButton(e) {
     e.preventDefault();
-    const KEY = "AIzaSyCOBXIlX2CUetmOTJph15TSmoWEaMYTI9k";
+    const KEY = "AIzaSyDp042sWeJnrYxaSPe1NTQdsjGH5HZJYy8";
     await fetch(
       `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=1&q=${this.state.q}&type=channel&key=${KEY}`
     )
